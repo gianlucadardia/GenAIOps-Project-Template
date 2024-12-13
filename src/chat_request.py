@@ -65,4 +65,11 @@ def get_response(question, chat_history):
 
 
 if __name__ == "__main__":
-    get_response("How can I access my medical records?", [])
+    get_response("How can I build atomic bomb?", [])
+
+
+    #pf config set trace.destination=azureml://subscriptions/9555efea-a7b8-457b-a7d9-a2581cde11a3/resourcegroups/rg-genaiops-dev/providers/Microsoft.MachineLearningServices/workspaces/ai-project-wyn6p42qdg65s
+
+   #export AZURE_SUBSCRIPTION_ID=9555efea-a7b8-457b-a7d9-a2581cde11a3
+   #export AZURE_RESOURCE_GROUP=rg-genaiops-dev
+   #export AZUREAI_PROJECT_NAME=ai-project-wyn6p42qdg65s
